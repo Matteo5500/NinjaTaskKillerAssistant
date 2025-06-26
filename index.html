@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Task Assassin – The Micro-Task Killer</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+  
+  <a href="/authorize" class="authorize-btn">Connect Google Calendar</a>
+
+  
+  <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">🌙</button>
+
+  <div class="container">
+    
+    <div class="chat-area">
+      <header class="chat-header">
+        <h1>Task Assassin – The Micro-Task Killer</h1>
+      </header>
+      <div id="chat-box" class="chat-box"></div>
+      <form id="chat-form" class="chat-form">
+        <input
+          type="text"
+          id="user-input"
+          placeholder="Write your task..."
+          autocomplete="off"
+          required
+        />
+        <button id="send-btn" type="submit"><span>Send</span></button>
+      </form>
+    </div>
+
+    
+    <div class="avatar-area">
+      <video
+        id="avatar-video"
+        class="avatar-video"
+        src="{{ url_for('static', filename='avatar.mp4') }}"
+        muted
+        loop
+        playsinline
+        preload="auto"
+      >
+      </video>
+    </div>
+  </div>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+  <script>feather.replace()</script>
+</body>
+</html>
