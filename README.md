@@ -9,3 +9,9 @@ Every interaction feels as natural as chatting with your most driven teammate. W
 Get ready to experience next-level productivity. 🚀
 
 PS: You have to use your secret key OpenAi Key to use this Task Assistant lol you can't use mine!
+
+![task assistant](task_assistant1)
+![task assistant](task_assistant2)
+
+## Trailer
+https://drive.google.com/file/d/1COn4FWvp1ACiR4oomPnbeuR8yvNrxggR/view?usp=sharing 
